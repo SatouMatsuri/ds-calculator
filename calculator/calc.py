@@ -184,5 +184,4 @@ def main(page: ft.Page):
     calc = CalculatorApp()
     page.add(calc)
 
-
 ft.app(target=main)
