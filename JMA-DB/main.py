@@ -130,7 +130,7 @@ def main(page: ft.Page):
         }
         update_region_menu(filtered_regions)
 
-    # データを取得するためのヘルパー関数
+    # データを取得するための関数
     def fetch_weather_data(url: str) -> Dict:
         try:
             response = requests.get(url)
@@ -354,7 +354,7 @@ def main(page: ft.Page):
 
     # 初期データの読み込み
     load_region_data()
-    
+
 
 # Fletアプリケーションの実行
 ft.app(target=main)
