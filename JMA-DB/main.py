@@ -354,6 +354,7 @@ def main(page: ft.Page):
 
     # 初期データの読み込み
     load_region_data()
+    
 
 # Fletアプリケーションの実行
 ft.app(target=main)
